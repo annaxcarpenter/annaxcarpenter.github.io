@@ -72,3 +72,53 @@ html {
     z-index: 10;
     text-align: center;
   }
+
+  .hero-heading {
+    font-size: 3rem;
+    line-height: 3rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+
+  .hero-text {
+    font-size: 1.5rem;
+    line-height: 0rem;
+    color:rgba(0, 0, 0, 0.39);
+    text-transform: initial;
+    font-weight: normal;
+  }
+
+  /* Media Queries Below */
+
+  @media (min-width: 600px) {
+    .hero-heading {
+      color: white;
+      font-size: 4rem;
+      line-height: 4rem;
+
+    }
+
+    .hero-text {
+      font-size: 3rem;
+      line-height: 1rem;
+    }
+  }
+
+  @media (min-width: 920px) {
+    .hero-heading {
+      font-size: 9rem;
+      line-height: 7rem;
+      color: white;
+      text-transform: uppercase;
+      font-weight: bolder;
+    }
+  
+    .hero-text {
+      font-size: 9rem;
+      line-height: 0rem;
+      color:rgba(0, 0, 0, 0.39);
+      text-transform: initial;
+      font-weight: normal;
+    }
+  }
