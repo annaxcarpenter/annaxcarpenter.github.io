@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/glightbox.min.css" />
   </head>
   <body>
     <header class="hero-box">
@@ -22,33 +23,44 @@
       </section>
     </header>
     <!-- begin portfolio gallery -->
-    
-<section class="portfolio-gallery">
+<section class="portfolio-container">
   <h1>Portfolio</h1>
-  <div class="gallery-item">
-<a class="glightbox" href="img/coon.JPG">
-<img class="gallery-img" src="img/coon.JPG" alt="coon">
-  </div>
-  <div class="gallery-item">
-    <a class="glightbox" href="img/meme.JPG">
-    <img class="gallery-img" src="img/meme.JPG" alt="meme">
-      </div>
-      <div class="gallery-item">
-        <a class="glightbox" href="img/marc.JPG">
-        <img class="gallery-img" src="img/marc.JPG" alt="marc">
-        </div>
-        <div class="gallery-item">
-          <a class="glightbox" href="img/lilpeepart.JPEG">
-          <img class="gallery-img" src="img/lilpeepart.JPEG" alt="lilpeepart">
-          </div>
-          <div class="gallery-item">
-            <a class="glightbox" href="img/bus.JPG">
-            <img class="gallery-img" src="img/bus.JPG" alt="bus">
-            </div>
-            <div class="gallery-item">
-              <a class="glightbox" href="img/taehyung.PNG">
-              <img class="gallery-img" src="img/taehyung.PNG" alt="taehyung">
-              </div>
+  <section class="portfolio-gallery">
+    <div class="gallery-item">
+      <a class="glightbox" href="img/coon.JPG">
+      <img class="gallery-img" src="img/coon.JPG" alt="coon">
+      </a>
+    </div>
+    <div class="gallery-item">
+      <a class="glightbox" href="img/meme.JPG">
+      <img class="gallery-img" src="img/meme.JPG" alt="meme">
+      </a>
+    </div>
+    <div class="gallery-item">
+      <a class="glightbox" href="img/marc.JPG">
+      <img class="gallery-img" src="img/marc.JPG" alt="marc">
+      </a>
+    </div>
+    <div class="gallery-item">
+      <a class="glightbox" href="img/lilpeepart.JPEG">
+      <img class="gallery-img" src="img/lilpeepart.JPEG" alt="lilpeepart">
+      </a>
+    </div>
+    <div class="gallery-item">
+      <a class="glightbox" href="img/bus.JPG">
+      <img class="gallery-img" src="img/bus.JPG" alt="bus">
+      </a>
+    </div>
+    <div class="gallery-item">
+      <a class="glightbox" href="img/taehyung.PNG">
+      <img class="gallery-img" src="img/taehyung.PNG" alt="taehyung">
+      </a>
+    </div>
+  </section>
 </section>
-  </body>
+<script src="js/glightbox.min.js"></script>
+<script type="text/javascript">
+  const lightbox = GLightbox({ loop: true });
+</script>
+</body>
 </html>
