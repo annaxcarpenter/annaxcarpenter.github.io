@@ -12,6 +12,7 @@ body {
   padding: 0;
   min-height: 100%;
   max-width: 100%;
+  padding-bottom: 8rem;
 }
 
 *,
@@ -58,7 +59,8 @@ img {
   background-color: rgba(145, 73, 40, 0.4);
 }
 
-.hero-image, .hero-video {
+.hero-image,
+.hero-video {
   display: grid;
   width: 100%;
   height: 100%;
@@ -103,7 +105,7 @@ img {
 .portfolio-container h1 {
   font-size: 2rem;
   line-height: 2rem;
-  color: green;
+  color: black;
 }
 
 .portfolio-gallery {
@@ -129,6 +131,31 @@ img {
   transform: scale(1.5);
 }
 
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 1rem auto 0 auto;
+}
+
+.about-text h1 {
+  font-size: 2rem;
+  line-height: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.about-social {
+  display: flex;
+  justify-content: start;
+}
+.about-social a {
+  color: black;
+  padding: 0 1rem 1rem 1rem;
+  font-size: 2rem;
+}
+.about-social a:hover {
+  color: grey;
+}
 /* Media Queries Below */
 
 @media (min-width: 600px) {
@@ -144,6 +171,18 @@ img {
     font-size: 3rem;
     line-height: 3rem;
     padding-left: 1rem;
+  }
+  .about-container {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+  .about-text h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+  .about-text p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
   }
 }
 
@@ -162,5 +201,9 @@ img {
   .portfolio-container h1 {
     font-size: 6rem;
     line-height: 6rem;
+  }
+  .about-text p {
+    font-size: 1.8rem;
+    line-height: 2.1rem;
   }
 }
