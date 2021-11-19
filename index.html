@@ -127,9 +127,24 @@
     <script src="js/glightbox.min.js"></script>
     <script type="text/javascript">
       const lightbox = GLightbox({ loop: true });
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          document.getElementById("top-nav-bar").style.background = "#000000";
+        } else {
+          document.getElementById("top-nav-bar").style.background = "none";
+        }
+      }
     </script>
   </body>
 </html>
+  
 <!--begin navigation-->
 <nav class="nav-bar top-nav">
   <h1 class="logo"><a href="index.html">Anna Carpenter</a></h1>
