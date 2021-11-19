@@ -27,7 +27,57 @@ img {
   display: block;
 }
 /* End basic Styles */
-
+/*begin nav styles*/
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  line-height: 2rem;
+  overflow: hidden;
+  background-color: rgb(255, 204, 175);
+  z-index: 1000;
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.nav-item {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 33.3%;
+  text-align: center;
+}
+.social-nav-item {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 10%;
+}
+.logo a,
+.nav-menu a {
+  display: block;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+  padding: 0.8rem;
+  color: rgb(0, 0, 0);
+}
+.logo a {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.nav-menu a {
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  border-bottom: 1px soild black;
+}
+.nav-menu a:hover {
+  border-bottom: 1px solid rgb(29, 41, 28);
+}
 /* Begin Hero Styles */
 .hero-box {
   display: grid;
