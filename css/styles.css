@@ -85,7 +85,7 @@ img {
 .nav-menu a {
   font-weight: 400;
   letter-spacing: 0.1rem;
-  border-bottom: 1px soild black;
+  border-bottom: 1px soild rgb(0, 0, 0);
 }
 
 .top-nav {
@@ -107,7 +107,7 @@ img {
 
 .top-nav .logo a,
 .top-nav .nav-menu a {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .top-nav .nav-menu a:hover {
@@ -115,10 +115,10 @@ img {
 }
 
 .nav-menu a:hover {
-  border-bottom: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(125, 33, 201);
 }
 .footer-nav {
-  background: white;
+  background: rgb(255, 255, 255);
 }
 /* Begin Hero Styles */
 .hero-box {
@@ -149,7 +149,7 @@ img {
   position: absolute;
   top: 0;
   bottom: 0;
-  background-color: rgba(145, 73, 40, 0.4);
+  background-color: rgba(40, 22, 207, 0.116);
 }
 
 .hero-image,
@@ -163,7 +163,7 @@ img {
 
 .hero-video {
   background-color: black;
-  background-image: url("../img/singleFrame.jpg");
+  background-image: url("../img/singleframeforvideo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -188,7 +188,7 @@ img {
 
 .hero-text {
   font-size: 2rem;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .portfolio-container {
@@ -198,7 +198,7 @@ img {
 .portfolio-container h1 {
   font-size: 2rem;
   line-height: 2rem;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .portfolio-gallery {
@@ -251,7 +251,7 @@ img {
   font-size: 2rem;
 }
 .about-social a:hover {
-  color: grey;
+  color: rgb(231, 137, 137);
 }
 .about-image img {
   height: 100%;
